@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<p style="color:red">My first paragraph.</p>
 <p>My second paragraph.</p>
 <p>My third paragraph.</p>
 <p>My last paragraph.</p>
@@ -107,9 +107,12 @@
                   {color:'blue',        size: '16pt'},
                   {color:'steelblue',   size: '20pt'}];
     let P = d3.selectAll('p')
-    P.data(colors)
+   /* P.data(colors)
         .style('color',    function (d){return d.color})
         .style('font-size',function (d){return d.size})
+        */
+
+
 </script>
 
 
